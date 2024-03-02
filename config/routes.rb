@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get "up" => "channels#index", as: :rails_health_check
 
   # Defines the root path route ("/")
-  # root "posts#index"
+  root "channels#index"
 
   resources :channels
 end

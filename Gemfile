@@ -67,5 +67,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "simple_form"
 
-gem "tailwindcss-rails", "~> 2.3"
+gem "bootstrap", "~> 5.3"
+
+gem "autoprefixer-rails"
+
+gem "sassc-rails"

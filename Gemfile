@@ -67,10 +67,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-gem "simple_form"
-
-gem "bootstrap", "~> 5.3"
-
+gem "bootstrap", "~> 5.2"
 gem "autoprefixer-rails"
-
+gem "simple_form"
 gem "sassc-rails"
